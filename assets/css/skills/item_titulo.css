@@ -1,0 +1,6 @@
+.item_titulo{
+    align-self: flex-start;
+    justify-self: flex-end;
+    font-size: 0.85rem;
+    font-weight: bold;
+}

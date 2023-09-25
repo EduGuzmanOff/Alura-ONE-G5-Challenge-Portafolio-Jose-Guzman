@@ -1,0 +1,60 @@
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .75rem;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid #103D4A;
+}
+.head_header{
+    display: flex;
+}
+
+.head_logo {
+    margin-right: 1rem;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.head_titulo{
+    font-size: 1.25rem;
+    align-self: center;
+
+}
+.head_navegacion {
+    text-align: center;
+    display: flex;
+}
+
+.head_enlace, a:link {
+    font-size: 1.1rem;
+    text-decoration: none;;
+    display: inline-block;
+    margin-right: .4rem;
+    margin-left: .4rem;
+
+}
+.head_enlace_alt{
+    display: none;
+    font-size: 1.1rem;
+    text-decoration: none;;
+    margin-right: .4rem;
+    margin-left: .4rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .head {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+        width: auto;
+    }
+    .head_enlace{
+        display: none;
+        text-decoration: none;
+    }
+    .head_enlace_alt{
+        display: flex;
+        
+    }
+}

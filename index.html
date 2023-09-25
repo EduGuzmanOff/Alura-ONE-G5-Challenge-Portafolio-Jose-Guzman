@@ -3,104 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/head.css">
+    <link rel="stylesheet" href="assets/css/container.css">
+    <link rel="stylesheet" href="assets/css/banner/presentacion.css">
+    <link rel="stylesheet" href="assets/css/banner/presentacion_items.css">
+    <link rel="stylesheet" href="assets/css/banner/presentacion_redes.css">
+    <link rel="stylesheet" href="assets/css/banner/presentacion_texto.css">
+    <link rel="stylesheet" href="assets/css/banner/presentacion_titulo.css">
+    <link rel="stylesheet" href="assets/css/skills/skills.css">
+    <link rel="stylesheet" href="assets/css/skills/skills_items.css">
+    <link rel="stylesheet" href="assets/css/skills/skills_lista.css">
+    <link rel="stylesheet" href="assets/css/skills/skills_titulo.css">
+    <link rel="stylesheet" href="assets/css/skills/item_imagen.css">
+    <link rel="stylesheet" href="assets/css/skills/item_titulo.css">
+    <link rel="stylesheet" href="assets/css/hobbies/hobbie.css">
+    <link rel="stylesheet" href="assets/css/hobbies/hobbie_item.css">
+    <link rel="stylesheet" href="assets/css/hobbies/hobbie_lista.css">
+    <link rel="stylesheet" href="assets/css/hobbies/hobbie_titulo.css">
+    <link rel="stylesheet" href="assets/css/about/sobre_mi.css">
+    <link rel="stylesheet" href="assets/css/about/sobre_mi_firma.css">
+    <link rel="stylesheet" href="assets/css/about/sobre_mi_resumen.css">
+    <link rel="stylesheet" href="assets/css/about/sobre_mi_texto.css">
+    <link rel="stylesheet" href="assets/css/about/sobre_mi_titulo.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="">
     <title>Challenge Portafolio - José Eduardo Guzmán Tula</title>
 </head>
 <body>
-    <header>
-        <h1>José Eduardo Guzmán Tula</h1>
-        <nav>
-            <ul>
-                <li class="menu">Sobre mi</li>
-                <li class="menu">Skills</li>
-                <li class="menu">Hobbies</li>
-                <li class="menu">Formación</li>
-                <li class="menu">Proyectos</li>
-                <li class="correo menu">eduguzmanoff@gmail.com</li>
-            </ul>
-        </nav>
+    <header class="head container">
+            <div class="head_header">
+                <img class="head_logo" src="assets/Imagenes/vector.png" alt="vector">
+                <h1 class="head_titulo">José Eduardo Guzmán Tula</h1>   
+            </div>       
+            <nav class="head_navegacion">
+                <ul class="head_lista">
+                    <li class="head_enlace"><a href="#sobre-mi">Sobre mi</a></li>
+                    <li class="head_enlace"><a href="#skills">Skills</a></li>
+                    <li class="head_enlace"><a href="#hobbies">Hobbies</a></li>
+                    <li class="head_enlace"><a href="#formacion">Formación</a></li>
+                    <li class="head_enlace"><a href="#portafolio">Proyectos</a></li>
+                    <li class="head_enlace"><a href="#contacto">Contacto</a></li>
+                    <li class="head_enlace_alt"><a href="">eduguzmanoff@gmail.com</a></li>
+                </ul>
+            </nav>
     </header>
     <main>
-        <section class="container">
-            <h1>Hola, mi nombre es José Eduardo Guzmán Tula y construyo páginas web</h1>
-            <p>Soy formado en Lorem, ipsum dolor y actualmente estoy participando del proyecto de Oracle ONE en Alura Latam</p>
-            <img src="" alt="Fotografía de José Eduardo Guzmán Tula">
-            <ul>
-                <li><a href="">GitHub</a></li>
-                <li><a href="">Linkedin</a></li>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">Curriculo</a></li>
-            </ul>
+        <section class="presentacion container" id="sobre-mi">
+            <div class="presentacion_info">
+                <h1 class="presentacion_titulo">Hola, mi nombre es José Eduardo Guzmán Tula y construyo páginas web</h1>
+                <p class="presentacion_texto">Soy formado en la Universidad Nacional del Altiplano y <br>actualmente estoy participando del proyecto de Oracle ONE en Alura Latam</p>
+                <ul class="presentacion_redes">
+                    <li class="presentacion_items">
+                        <a href="">
+                            <i class="fa-brands fa-github"></i>
+                            <p>GitHub</p> 
+                        </a>
+                    </li>
+                    <li class="presentacion_items">
+                        <a href="">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <p>Linkedin</p> 
+                        </a>
+                    </li>
+                    <li class="presentacion_items">
+                        <a href="">
+                            <i class="fa-brands fa-square-instagram"></i>
+                            <p>Instagram</p> 
+                        </a>
+                    </li>
+                    <li class="presentacion_items">
+                        <a href="">
+                            <i class="fa-solid fa-file"></i>
+                            <p>Curriculo</p> 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="presentacion_imagen">
+                <img class="p_imagen" src="assets/Imagenes/PerfilJoseGuzman.jpg" alt="">
+            </div>
+             
         </section>
-        <section class="container">
-            <h3>Sobre mi</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, accusantium exercitationem neque magnam deserunt alias? Amet deserunt perferendis, nihil recusandae nam dolorem et repellat consequuntur! Exercitationem dignissimos voluptatibus perspiciatis tempore.</p>
-            <img src="" alt="Firma">
-        </section>
-        <section class="container">
-            <h3>Skills</h3>
-            <ul>
-                <li><img src="" alt="Logo HTML"></li>
-                <li><img src="" alt="Logo JavaScript"></li>
-                <li><img src="" alt="Logo PHP"></li>
-                <li><img src="" alt="Logo Node JS"></li>
-                <li><img src="" alt="Logo React"></li>
-                <li><img src="" alt="Logo CSS"></li>
-            </ul>
-        </section>
-        <section class="container">
-            <h3>Hobbies</h3>
-            <ul>
-                <li><img src="" alt="Logo Hobbie 1"></li>
-                <li><img src="" alt="Logo Hobbie 2"></li>
-                <li><img src="" alt="Logo Hobbie 3"></li>
-                <li><img src="" alt="Logo Hobbie 4"></li>
-                <li><img src="" alt="Logo Hobbie 5"></li>
-                <li><img src="" alt="Logo Hobbie 6"></li>
-            </ul>
-        </section>
-        <section class="container">
-            <h3>Formación Académica</h3>
-            <ul>
-                <li><img src="" alt="Logo Formacion">Análisis de datos</li>
-                <li><img src="" alt="Logo Formacion">Formación en UX Design</li>
-                <li><img src="" alt="Logo Formacion">Postgrado de Design</li>
-            </ul>
-        </section>
-        <section class="container">
-            <div>
-                <h3>Experiencia Profesional</h3>
-                <div>
-                    <h4>Encriptador de Texto</h4>
-                    <a href=""></a>
-                    <button>Repositorio</button>
-                    <button>Ver Demo</button>
-                </div>
-                <div>
-                    <h4>Juego Creado con HTML y JavaScript</h4>
-                    <a href=""></a>
-                    <button>Repositorio</button>
-                    <button>Ver Demo</button>
-                </div>
-                <div>
-                    <h4>Proyecto</h4>
-                    <a href=""></a>
-                    <button>Repositorio</button>
-                    <button>Ver Demo</button>
-                </div>
+        <section class="sobre_mi container">
+            <div class="sobre_mi_resumen">
+                <h3 class="sobre_mi_titulo">Sobre mi</h3>
+                <p class="sobre_mi_texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, accusantium exercitationem neque magnam deserunt alias? Amet deserunt perferendis, nihil recusandae nam dolorem et repellat consequuntur! Exercitationem dignissimos voluptatibus perspiciatis tempore.</p>
+                <img class="sobre_mi_firma" src="assets/Imagenes/signature.png" alt="Firma">
             </div>
         </section>
-        <section class="container">
-            <h3>Contacto</h3>
-            <img src="" alt="imagen contacto">
-            <p>¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con usted en la brevedad posible</p>
-            <form action="">
-                <ul>
-                    <li><input type="text" placeholder="Nombre"></li>
-                    <li><input type="text" placeholder="E-mail"></li>
-                    <li><input type="text" placeholder="Asunto"></li>
-                    <li><input type="text" placeholder="Mensaje"></li>
+        <section class="skills container" id="skills">
+            <h3 class="skills_titulo">Skills</h3>
+            <ul class="skills_lista">
+                <li class="skills_items">
+                    <img class="item_imagen" src="assets/Imagenes/htlm.png" alt="Logo HTML">
+                    <h2 class="item_titulo">Html 5</h2> 
+                </li>
+                <li class="skills_items">
+                    <img class="item_imagen" src="assets/Imagenes/js_icon.png" alt="Logo JavaScript">
+                    <h2 class="item_titulo">JavaScript</h2> 
+                </li>
+                <li class="skills_items">
+                    <img class="item_imagen" src="assets/Imagenes/php_icon.png" alt="Logo PHP">
+                    <h2 class="item_titulo">PHP</h2> 
+                </li>
+                <li class="skills_items">
+                    <img class="item_imagen" src="assets/Imagenes/nodejs_icon.png" alt="Logo Node JS">
+                    <h2 class="item_titulo">Node JS</h2> 
+                </li>
+                <li class="skills_items">
+                    <img class="item_imagen" src="assets/Imagenes/react_icon.png" alt="Logo React">
+                    <h2 class="item_titulo">React JS</h2> 
+                </li>
+                <li class="skills_items">
+                    <img class="item_imagen" src="assets/Imagenes/css_icon.png" alt="Logo CSS">
+                    <h2 class="item_titulo">CSS 3</h2> 
+                </li>
+            </ul>
+        </section>
+        <section class="hobbie container" id="hobbies">
+            <h3 class="hobbie_titulo">Hobbies</h3>
+            <ul class="hobbie_lista">
+                <li class="hobbie_item"><img class="hobbie_item_imagen" src="assets/Imagenes/forkspoon_icon.png" alt="Logo Hobbie 2"><h2 class="item_titulo">Cocinar</h2> </li>
+                <li class="hobbie_item"><img class="hobbie_item_imagen" src="assets/Imagenes/guitar_icon.png" alt="Logo Hobbie 1"><h2 class="item_titulo">Tocar el bajo</h2> </li>
+                <li class="hobbie_item"><img class="hobbie_item_imagen" src="assets/Imagenes/tv_icon.png" alt="Logo Hobbie 3"><h2 class="item_titulo">Ver peliculas</h2> </li>
+                <li class="hobbie_item"><img class="hobbie_item_imagen" src="assets/Imagenes/skate_icon.png" alt="Logo Hobbie 4"><h2 class="item_titulo">Skate</h2> </li>
+                <li class="hobbie_item"><img class="hobbie_item_imagen" src="assets/Imagenes/camera_icon.png" alt="Logo Hobbie 5"><h2 class="item_titulo">Fotografia</h2> </li>
+                <li class="hobbie_item"><img class="hobbie_item_imagen" src="assets/Imagenes/headphones_icon.png" alt="Logo Hobbie 6"><h2 class="item_titulo">Oir Música</h2> </li>
+            </ul>
+        </section>
+        <section class="formacion container" id="formacion">
+            <h3 class="formacion_titulo">Formación Académica</h3>
+            <ul class="formacion_lista">
+                <li class="formacion_item"><img src="assets/Imagenes/ufpr_logo.png" alt="Logo Formacion">Análisis de datos</li>
+                <li class="formacion_item"><img src="assets/Imagenes/alura_logo.png" alt="Logo Formacion">Formación en UX Design</li>
+                <li class="formacion_item"><img src="assets/Imagenes/ufrj_logo.png" alt="Logo Formacion">Postgrado de Design</li>
+            </ul>
+        </section>
+        <section class="experiencia container" id="portafolio">
+                <h3 class="experiencia_titulo">Experiencia Profesional</h3>
+                <ul class="experiencia_lista">
+                    <li class="experiencia_item">
+                        <h4 class="item_titulo">Encriptador de Texto</h4>
+                        <a href=""></a>
+                        <button class="item_boton">Repositorio</button>
+                        <button class="item_boton">Ver Demo</button>
+                    </li> 
+                    <li class="experiencia_item">
+                        <h4 class="item_titulo">Juego Creado con HTML y JavaScript</h4>
+                        <a href=""></a>
+                        <button class="item_boton">Repositorio</button>
+                        <button class="item_boton">Ver Demo</button>
+                    </li> 
+                    <li class="experiencia_item">
+                        <h4 class="item_titulo">Proyecto</h4>
+                        <a href=""></a>
+                        <button class="item_boton">Repositorio</button>
+                        <button class="item_boton">Ver Demo</button>
+                    </li> 
                 </ul>
-                <button>Enviar mensaje</button>
+                    
+        </section>
+        <section class="contacto container" id="contacto">
+            <h3 class="contacto_titulo">Contacto</h3> 
+            <img class="contacto_imagen" src="" alt="imagen contacto">
+            <p class="contacto_texto">¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con usted en la brevedad posible</p>
+            <form class="contacto_form" action="">
+                <ul class="contacto_lista">
+                    <li class="contacto_item"><input class="contacto_input" type="text" placeholder="Nombre"></li>
+                    <li class="contacto_item"><input class="contacto_input" type="text" placeholder="E-mail"></li>
+                    <li class="contacto_item"><input class="contacto_input" type="text" placeholder="Asunto"></li>
+                    <li class="contacto_item"><input class="contacto_input" type="text" placeholder="Mensaje"></li>
+                </ul>
+                <button class="contacto_boton">Enviar mensaje</button>
             </form>
             
         </section>
@@ -108,5 +188,7 @@
     <footer>
 
     </footer>
+
 </body>
+<script src="https://kit.fontawesome.com/5834ee56b2.js" crossorigin="anonymous"></script>
 </html>

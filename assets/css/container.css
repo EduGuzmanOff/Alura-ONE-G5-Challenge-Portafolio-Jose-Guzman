@@ -1,0 +1,10 @@
+.container{
+    width: 97%;
+    display: flex;
+    margin: 0% 3rem 1.3rem 3rem; 
+    font-family: Montserrat;
+
+}
+body{
+    background-color: #F5F5F5;
+}

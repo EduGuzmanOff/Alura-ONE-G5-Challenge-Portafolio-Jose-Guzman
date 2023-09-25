@@ -1,0 +1,10 @@
+.skills_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 10vw;
+    height: 10vw;
+    padding: 2rem 2rem 0 0;
+    border:solid 2px #FFFFFF;
+    background-color: #FFFFFF;
+}

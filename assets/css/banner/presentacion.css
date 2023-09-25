@@ -1,0 +1,21 @@
+.presentacion{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+.presentacion_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.presentacion_imagen{
+    display: flex;
+    justify-content: center;
+}
+.p_imagen{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+    border: solid 4px #797878;
+}
