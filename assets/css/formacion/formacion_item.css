@@ -1,0 +1,17 @@
+.formacion_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px #FAFAFA; 
+    width: 25vw;
+    height: 20vw;
+    background-color: #FAFAFA;
+    text-align: center;
+    font-weight: bold;
+
+}
+.formacion_item_imagen{
+    width: 20vw;
+    height: auto;
+    align-self: center;
+}
