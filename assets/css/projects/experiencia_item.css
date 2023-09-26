@@ -1,0 +1,12 @@
+.experiencia_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 75%;
+    height: auto;
+    padding: 2rem 2rem 0 0;
+}
+.experiencia_imagen{
+    width: 80vw;
+    align-self: center;
+}
