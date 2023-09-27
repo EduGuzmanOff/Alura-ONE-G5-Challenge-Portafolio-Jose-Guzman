@@ -4,7 +4,7 @@
     justify-content: space-between;
     padding-top: .75rem;
     font-family: 'Montserrat', sans-serif;
-    border-bottom: 1px solid #103D4A;
+    
 }
 .head_header{
     display: flex;
@@ -25,13 +25,16 @@
     display: flex;
 }
 
-.head_enlace, a:link {
+.head_enlace, a{
     font-size: 1.1rem;
     text-decoration: none;
     display: inline-block;
     margin-right: .4rem;
     margin-left: .4rem;
-
+    transition: 0.3s;
+}
+.head_enlace:hover, a:hover{
+    transform: scale(1.2);
 }
 .head_enlace_alt{
     display: none;

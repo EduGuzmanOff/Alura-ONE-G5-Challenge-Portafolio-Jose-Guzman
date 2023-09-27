@@ -1,0 +1,6 @@
+.contacto{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 7%;
+}

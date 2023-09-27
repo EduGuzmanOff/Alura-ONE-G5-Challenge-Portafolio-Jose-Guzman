@@ -38,6 +38,14 @@
     <link rel="stylesheet" href="assets/css/projects/experiencia_titulo.css">
     <link rel="stylesheet" href="assets/css/projects/item_boton.css">
     <link rel="stylesheet" href="assets/css/projects/item_titulo.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto_boton.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto_form.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto_imagen.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto_item.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto_lista.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto_texto.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto_titulo.css">
     <title>Challenge Portafolio - José Eduardo Guzmán Tula</title>
 </head>
 <body>
@@ -189,18 +197,35 @@
                     
         </section>
         <section class="contacto container" id="contacto">
-            <h3 class="contacto_titulo">Contacto</h3> 
-            <img class="contacto_imagen" src="" alt="imagen contacto">
-            <p class="contacto_texto">¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con usted en la brevedad posible</p>
-            <form class="contacto_form" action="">
-                <ul class="contacto_lista">
-                    <li class="contacto_item"><input class="contacto_input" type="text" placeholder="Nombre"></li>
-                    <li class="contacto_item"><input class="contacto_input" type="text" placeholder="E-mail"></li>
-                    <li class="contacto_item"><input class="contacto_input" type="text" placeholder="Asunto"></li>
-                    <li class="contacto_item"><input class="contacto_input" type="text" placeholder="Mensaje"></li>
-                </ul>
-                <button class="contacto_boton">Enviar mensaje</button>
-            </form>
+
+            <div class="contacto_div_imagen">
+                <img class="contacto_imagen" src="assets/Imagenes/contact_image.png" alt="imagen contacto">
+            </div>
+            <div class="contacto_contenido">
+                <h3 class="contacto_titulo">Contacto</h3> 
+                <p class="contacto_texto">¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con usted en la brevedad posible</p>
+                <form class="contacto_form" action="">
+                    <ul class="contacto_lista">
+                        <li class="contacto_item">
+                            <label for="contacto-nombre">Nombre</label>
+                            <input id="contacto-nombre" name="contacto-nombre"   class="contacto_input" type="text" placeholder="Nombre">
+                        </li>
+                        <li class="contacto_item">
+                            <label for="contacto-email">Email</label>
+                            <input id="contacto-email" name="contacto-email"   class="contacto_input" type="text" placeholder="E-mail">
+                        </li>
+                        <li class="contacto_item">
+                            <label for="contacto-asunto">Asunto</label>
+                            <input id="contacto-asunto" name="contacto-asunto"   class="contacto_input" type="text" placeholder="Asunto">
+                        </li>
+                        <li class="contacto_item">
+                            <label for="contacto-mensaje">Mensaje</label>
+                            <input id="contacto-mensaje" name="contacto-mensaje"   class="contacto_input contacto--input" type="text">
+                        </li>
+                    </ul>
+                    <button class="contacto_boton">Enviar mensaje</button>
+                </form>
+            </div>
             
         </section>
     </main>
